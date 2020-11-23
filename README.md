@@ -3,6 +3,9 @@
 tener instalado jdk 8
 tener instalado maven 3.6 o superior
 
+en caso de tener una version de chrome y chromedriver distinta modificar en
+src/test/drivers/
+
 ## Instalar dependencias
 mvn clean install
 
