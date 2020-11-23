@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-01T05:17:13.352Z",
+        "line": 4,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5655000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Launch Chrome Browser",
+            "match": {
+              "location": "stepsDefinitions.stepsDefinitionLogin.i_Launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2624000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open orange hrm homepage \"http://admin-demo.nopcommerce.com/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://admin-demo.nopcommerce.com/login/\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepsDefinitions.stepsDefinitionLogin.i_open_orange_hrm_homepage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 633000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter Email as \"admin@yourstore.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepsDefinitions.stepsDefinitionLogin.user_Enter_Email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9130000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Login",
+            "match": {
+              "location": "stepsDefinitions.stepsDefinitionLogin.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Page Title Should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepsDefinitions.stepsDefinitionLogin.page_Title_Should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5047000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User CLick on log Out link",
+            "match": {
+              "location": "stepsDefinitions.stepsDefinitionLogin.user_CLick_on_log_Out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Page Title Should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your store. Login\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepsDefinitions.stepsDefinitionLogin.page_Title_Should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close browser",
+            "match": {
+              "location": "stepsDefinitions.stepsDefinitionLogin.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:Feature/Login.feature",
+    "tags": []
+  }
+]
