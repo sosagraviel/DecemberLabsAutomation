@@ -11,7 +11,7 @@ mvn clean install
 
 ## Ejecutar tests
 
-run TestRunner
+mvn install
 
 
 ### Solucion
